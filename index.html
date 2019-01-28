@@ -13,10 +13,25 @@
     crossorigin="anonymous"></script>
 
   <script src="assets/js/cursor.js"></script>
-<link rel="stylesheet" href="styles.3aa9f03e6e41329d70f7.css"></head>
+  <script src="assets/js/barra.js"></script>
+<link rel="stylesheet" href="styles.edc2e009d49bbfd61c20.css"></head>
 <body>
   <div id="prog-bar"></div>
   <div class="cursor"></div>
-  <app-root>Loading</app-root>
-<script type="text/javascript" src="runtime.ec2944dd8b20ec099bf3.js"></script><script type="text/javascript" src="polyfills.e6fbd82b34ccb0c8609f.js"></script><script type="text/javascript" src="scripts.806effac119676237f10.js"></script><script type="text/javascript" src="main.228325e2943d5d319ce3.js"></script></body>
+  <app-root>
+    <div class="loading-container">
+      <div class="loader">
+
+      </div>
+    </div>
+  </app-root>
+<script type="text/javascript" src="runtime.ec2944dd8b20ec099bf3.js"></script><script type="text/javascript" src="polyfills.e6fbd82b34ccb0c8609f.js"></script><script type="text/javascript" src="scripts.806effac119676237f10.js"></script><script type="text/javascript" src="main.387516e5c8b381a2be8e.js"></script></body>
 </html>
+
+<script>
+  $(function () {
+    $('body').scroll(() => {
+      console.log('simonkey');
+    });
+  });
+</script>
